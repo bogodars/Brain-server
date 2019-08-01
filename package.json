@@ -2,7 +2,7 @@
   "name": "smartbrain-api",
   "version": "1.0.0",
   "description": "server",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "start": "nodemon server.js"
   },
@@ -11,9 +11,13 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
+    "clarifai": "^2.9.0",
+    "clarify": "^2.1.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "jshint": "^2.10.2"
+    "jshint": "^2.10.2",
+    "knex": "^0.19.1",
+    "pg": "^7.12.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.11"
